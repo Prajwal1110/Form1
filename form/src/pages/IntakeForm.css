@@ -1,0 +1,264 @@
+
+.form-page {
+  position: relative;
+}
+
+label[for="photo"] {
+  position: absolute;
+  top: 0;
+  right: 300px;
+  margin-top: 35px;
+  /* Additional styling for the label if needed */
+}
+
+#photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 35px;
+  /* Additional styling for the input if needed */
+}
+
+.mid{
+  margin-top:25%;
+}
+
+.top{
+
+  margin-top: 100px;
+  margin-bottom: 150px;
+  margin-left: 25%;
+   margin-right:20%; 
+}
+.intake-form {
+    width:auto;
+    margin: 0 auto;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.form-page {
+  border: double 6px black ;
+  outline: solid 2px black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-page::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.left-section {
+    float: left;
+    width: 48%;
+    text-align: left;
+}
+
+.right-section {
+    float: right;
+    width: 48%;
+    text-align: left;
+}
+
+.photo-section {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+h2 {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+select {
+    width: 100%;
+    padding:8px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+  
+}
+
+select {
+    cursor: pointer;
+}
+
+
+/* PAGINATION */
+
+.pagination_wrapper {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination_section {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination_section a {
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.pagination_section a.active {
+  background-color: #333;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.pagination_section a:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination_wrapper a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 5px;
+}
+
+.pagination_wrapper a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.left-section label,
+.right-section label {
+  display: block;
+  float: left;
+   width: 40%; 
+  margin-bottom: 25px;
+}
+
+.left-section input,
+.right-section input {
+  display: block;
+  float: left;
+  width: 40%;
+  margin-bottom: 10px;
+  border-color: #f0f0f0;
+  /* padding: 2px; */
+}
+
+
+
+
+/* Styling for radio buttons */
+.radio-list {
+  list-style-type:none;
+  padding: 0;
+  text-align: left;
+
+}
+
+.radio-list li {
+  display: inline-block;
+  list-style-type:square;
+  margin-right: 20px;
+}
+
+.radio-list label {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: none;
+    font-weight: normal;
+ 
+}
+
+.radio-list input[type="radio"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+  border-color: #f0f0f0;
+}
+
+/*  */
+.radio-list1 {
+  list-style: none;
+  margin-top: 20%;
+ margin-right: 20%;
+}
+
+.radio-list1 li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.radio-list1 label {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.radio-list1 input[type="radio"] {
+  margin-right: 5px; /* Adjust margin as needed */
+  border-color: #f0f0f0;
+}
+
+.mid {
+  text-align: left;
+  display: grid;
+  grid-template-columns: max-content auto; /* Adjust the columns based on label and input */
+  gap: 10px; /* Gap between elements */
+}
+
+.mid label {
+  float: right;
+  align-self: center; /* Vertically center label */
+  /* justify-self: end; Align label to the end */
+  margin-bottom: 0; /* Remove margin bottom for label */
+}
+
+.mid input,
+.mid select {
+  width: 100%; /* Full width within the grid cell */
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-color: #f0f0f0;
+}
+
+
+
+.mid1 {
+  text-align: left;
+  display: grid;
+  grid-template-columns: max-content auto; /* Adjust the columns based on label and input */
+  gap: 10px; /* Gap between elements */
+}
+
+.mid1 label {
+  float: right;
+  align-self: center; /* Vertically center label */
+  /* justify-self: end; Align label to the end */
+  margin-bottom: 0; /* Remove margin bottom for label */
+}
+
+.mid1 input,
+.mid1 select {
+  width: 100%; /* Full width within the grid cell */
+  border-color: #f0f0f0;
+  box-sizing: border-box;
+}
